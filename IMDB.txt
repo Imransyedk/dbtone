@@ -1,0 +1,63 @@
+create table movies(
+name text,
+  genre text,
+  reviews text,
+  artist text
+)
+
+insert into movies (name,genre,reviews,artist)
+value (Kill,Action,four,Imran)
+
+select * from genre;
+
+create table genre(
+name text,
+  genre text,
+  reviews integer,
+  artist text
+)
+
+insert into genre (name,genre,reviews,artist)
+value (Gun,Action,4,Jshep)
+
+select * from users;
+create table users(
+name text,
+  reviews integer,
+  rating integer,
+  director text
+)
+
+insert into users (name,,reviews,rating,director)
+value (fire,GOod,4,John)
+
+select * from users;
+
+
+create table Skills(
+name text,
+  reviews integer,
+  rating integer,
+  director text
+  skill text
+)
+
+insert into users (name,,reviews,rating,director)
+value (love,GOod,4,John,dance)
+
+select * from skills;
+
+create table Artist(
+name text,
+  reviews text,
+  genre text,
+  rating integer,
+  director text
+  skill text
+  role text
+)
+
+insert into users (name,,reviews,rating,director)
+value (Ship,good,4,action,jackson,dance,villan)
+
+select * from Artist;
